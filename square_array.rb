@@ -1,8 +1,7 @@
-def square_array(array)
+def square_array(number)
   # your code here
-  squared = []
-  count= 0 
-  while count < array.size do
+  new_numbers = []
+   numbers.each do |num|
     squared << (array[count]**2)
     count=count+1
   end
