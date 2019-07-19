@@ -5,5 +5,5 @@ def square_array(numbers)
     new_numbers << (num**2)
     count=count+1
   end
-  new_numbers
+  numbers
 end
